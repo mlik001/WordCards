@@ -59,8 +59,6 @@ Kotlin + Jetpack Compose + Room + MVVM，**不需要后端、不需要登录，�
 - 每日提醒（WorkManager + 通知渠道 + Android 13 权限流）
 - 导入导出 JSON（SAF 选文件，无需存储权限）
 
-**明确不做**：登录注册、云同步、社交/排行榜、支付、后端。
-
 ## 技术栈
 
 | 项   | 选型                                                                  |
