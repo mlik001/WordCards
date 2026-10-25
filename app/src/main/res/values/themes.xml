@@ -1,0 +1,6 @@
+<resources>
+    <!-- Compose 负责页面视觉，这里只提供窗口级最小主题，避免启动瞬间白屏闪一下 -->
+    <style name="Theme.WordCards" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/page_background</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+      图标语义：一张单词卡（三条释义线）+ 右下角绿色对勾（= 已掌握）。
+      全部内容落在 108 的中心安全区（约 33~75）内，任何启动器遮罩都不会切掉主体。
+    -->
+
+    <!-- 卡片投影：用一层半透明黑模拟，避免自适应图标里无法使用 elevation -->
+    <path
+        android:fillColor="#1A000000"
+        android:pathData="M39,39h30a6,6 0 0 1 6,6v22a6,6 0 0 1 -6,6h-30a6,6 0 0 1 -6,-6v-22a6,6 0 0 1 6,-6z" />
+
+    <!-- 卡片本体 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,36h30a6,6 0 0 1 6,6v22a6,6 0 0 1 -6,6h-30a6,6 0 0 1 -6,-6v-22a6,6 0 0 1 6,-6z" />
+
+    <!-- 三条释义线：由长到短，暗示「条目列表」 -->
+    <path
+        android:pathData="M41,46.5H68"
+        android:strokeColor="#4361EE"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M41,54H61"
+        android:strokeColor="#4361EE"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M41,61.5H51"
+        android:strokeColor="#4361EE"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- 掌握标记 -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M70,59.5m-9,0a9,9 0 1,0 18,0a9,9 0 1,0 -18,0" />
+    <path
+        android:pathData="M66.2,59.6l2.8,3l4.9,-6"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

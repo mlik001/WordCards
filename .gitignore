@@ -1,0 +1,36 @@
+# ---- 构建产物（体积大头，绝不入库）----
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# ---- 本地配置（含 SDK 绝对路径 / 机器信息）----
+local.properties
+gradle/gradle-daemon-jvm.properties
+*.jks
+*.keystore
+
+# ---- IDE ----
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ---- 打包 / 备份的临时文件 ----
+app.zip
+*.zip
+*.tar.gz
+backup/
+
+# ---- 内部工具产物 ----
+.workbuddy/
+
+# ---- 例外：Gradle Wrapper 的 jar 必须入库，否则别人 clone 后无法构建 ----
+!gradle/wrapper/gradle-wrapper.jar

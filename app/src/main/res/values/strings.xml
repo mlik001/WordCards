@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">单词卡片</string>
+
+    <!-- 通用 -->
+    <string name="action_back">返回</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_retry">重试</string>
+    <string name="action_more">更多</string>
+
+    <!-- 列表页 -->
+    <string name="list_title">单词卡片</string>
+    <string name="list_search_hint">搜索单词或释义</string>
+    <string name="list_add_word">添加单词</string>
+    <string name="list_header_count">共 %1$d 个单词</string>
+    <string name="list_search_count">找到 %1$d 个</string>
+    <string name="list_banner_due">%1$d 张待复习</string>
+    <string name="list_banner_new">%1$d 个新词</string>
+    <string name="list_start_study">开始复习</string>
+    <string name="list_nothing_to_study">今天没有需要复习的词</string>
+    <string name="list_banner_hint">到期优先，剩余名额给新词</string>
+    <string name="list_banner_hint_idle">新词会在下次到期时自动出现</string>
+    <string name="list_empty_title">还没有单词</string>
+    <string name="list_empty_desc">点右下角按钮，加入第一个单词</string>
+    <string name="list_search_empty_title">没有匹配的结果</string>
+    <string name="list_search_empty_desc">换个关键词试试</string>
+    <string name="list_menu_stats">学习统计</string>
+    <string name="list_menu_wordbooks">词书</string>
+    <string name="list_menu_settings">设置</string>
+    <string name="list_menu_export">导出 JSON</string>
+    <string name="list_menu_import">导入 JSON</string>
+    <string name="list_delete_title">删除这个单词？</string>
+    <string name="list_delete_message">「%1$s」及其复习记录会一并删除，此操作不可撤销。</string>
+
+    <!-- 词书页 -->
+    <string name="wordbook_title">词书</string>
+    <string name="wordbook_subtitle">内置词书离线可用，导入后按 Leitner 节奏安排复习</string>
+    <string name="wordbook_progress">共 %1$d 词 · 已导入 %2$d</string>
+    <string name="wordbook_action_import">导入 %1$d 词</string>
+    <string name="wordbook_action_importing">导入中…</string>
+    <string name="wordbook_action_done">已全部导入</string>
+    <string name="wordbook_online_title">在线词书</string>
+    <string name="wordbook_online_desc">后续支持从服务器下载更多词书（考研 / 雅思 / 托福），当前版本的内置词书已可完全离线使用。</string>
+    <string name="wordbook_empty">没有找到内置词书</string>
+    <string name="msg_book_imported">《%1$s》新增 %2$d 个，跳过 %3$d 个重复</string>
+
+    <!-- 编辑页 -->
+    <string name="edit_title_new">新增单词</string>
+    <string name="edit_title_edit">编辑单词</string>
+    <string name="edit_field_word">单词</string>
+    <string name="edit_field_definition">释义</string>
+    <string name="edit_field_phonetic">音标（选填）</string>
+    <string name="edit_field_example">例句（选填）</string>
+    <string name="edit_error_required">这一项不能为空</string>
+    <string name="edit_error_duplicate">这个单词已经存在了</string>
+    <string name="edit_not_found">这个单词已被删除</string>
+
+    <!-- 复习页 -->
+    <string name="study_title">复习</string>
+    <string name="study_exit">退出</string>
+    <string name="study_progress">%1$d / %2$d</string>
+    <string name="study_remaining">还剩 %1$d 张</string>
+    <string name="study_flip_hint">点击卡片查看释义</string>
+    <string name="study_known">认识</string>
+    <string name="study_unknown">不认识</string>
+    <string name="study_loading">正在准备这一轮…</string>
+    <string name="study_finished_title">这一轮完成了</string>
+    <string name="study_finished_summary">认识 %1$d 张，不认识 %2$d 张</string>
+    <string name="study_finished_requeued">其中 %1$d 张在本轮重现过</string>
+    <string name="study_finished_back">回到列表</string>
+    <string name="study_restart">再来一轮</string>
+    <string name="study_empty_title">今天没有到期卡片</string>
+    <string name="study_empty_desc">去列表里添加新词，或者明天再来</string>
+    <string name="study_box_label">第 %1$d 盒</string>
+    <string name="study_exit_confirm_title">退出这轮复习？</string>
+    <string name="study_exit_confirm_message">已经答过的卡片会保留进度，下次进来继续。</string>
+
+    <!-- 统计页 -->
+    <string name="stats_title">学习统计</string>
+    <string name="stats_streak">连续打卡</string>
+    <string name="stats_streak_unit">%1$d 天</string>
+    <string name="stats_today">今日复习</string>
+    <string name="stats_today_unit">%1$d 张</string>
+    <string name="stats_mastered">已掌握</string>
+    <string name="stats_mastered_unit">%1$d 词</string>
+    <string name="stats_total">总词数</string>
+    <string name="stats_total_unit">%1$d 词</string>
+    <string name="stats_box_distribution">盒子分布</string>
+    <string name="stats_box_name">第 %1$d 盒</string>
+    <string name="stats_box_note">盒子越高，间隔越长：0→5 对应 0 / 1 / 2 / 4 / 7 / 15 天</string>
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_session_size">每轮卡片数</string>
+    <string name="settings_session_size_value">%1$d 张</string>
+    <string name="settings_daily_new">每日新词上限</string>
+    <string name="settings_daily_new_value">%1$d 个</string>
+    <string name="settings_daily_new_hint">0 表示只复习旧词，不引入新词</string>
+    <string name="settings_reminder">每日提醒</string>
+    <string name="settings_reminder_switch">开启提醒</string>
+    <string name="settings_reminder_time">提醒时间</string>
+    <string name="settings_reminder_time_value">%1$s</string>
+    <string name="settings_reminder_note">系统省电策略下可能延迟十几分钟，不保证整点</string>
+    <string name="settings_permission_denied">没有通知权限，提醒无法生效</string>
+
+    <!-- 日期 -->
+    <string name="due_today">今天</string>
+    <string name="due_tomorrow">明天</string>
+    <string name="due_in_days">%1$d 天后</string>
+    <string name="due_overdue">逾期 %1$d 天</string>
+
+    <!-- 消息 -->
+    <string name="msg_word_deleted">已删除「%1$s」</string>
+    <string name="msg_exported">已导出 %1$d 个单词</string>
+    <string name="msg_imported">新增 %1$d 个，跳过 %2$d 个重复</string>
+    <string name="msg_failed">操作失败：%1$s</string>
+    <string name="msg_unknown_error">未知错误</string>
+</resources>
